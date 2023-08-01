@@ -1,0 +1,51 @@
+ @media (max-width:1024px) {
+    .nav-wrap ul{
+    column-gap: 44px;}
+}
+ @media (max-width:744px) {
+    .header-wrap {
+       width: 95%;
+       /* justify-content:space-around */
+    }
+
+    .nav-wrap ul{
+    column-gap: 15px;}
+   
+}
+/* ar eteoda 5ive elementi da magitom davamate */
+@media (max-width:545px) {
+    .nav-wrap li:last-child{
+        display: none;
+        }
+}
+
+ @media (max-width:375px) {
+    .header-wrap {
+        justify-content: space-between;
+        width: 90%;
+    }
+    .nav-wrap{
+    display: none;
+}
+
+.click-button{
+    display: none;
+}
+
+.burger-wrap{
+   display: flex;
+           flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+}
+.line{
+    background-color: white;
+    width: 15px;
+    height: 1px;
+}
+}
