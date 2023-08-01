@@ -42,12 +42,14 @@ width: 100%;
   line-height: normal;
   letter-spacing: 0.1px;
 }
-.click-button {
+.click-button,
+.click-button-2 {
   width: 100px;
   background-color: black;
   border-radius: 50px;
 }
-.click-button a {
+.click-button a,
+.click-button-2 a {
   text-align: center;
   font-family: Inter;
   font-size: 16px;
@@ -64,12 +66,10 @@ width: 100%;
 /* section 1 */
 .section-1-wrap {
   max-width: 1440px;
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
-  align-self: stretch;
-  justify-content: space-between;
-  flex-direction: row;
+justify-content: space-around;
   row-gap: 64px;
 }
 .left-block {
