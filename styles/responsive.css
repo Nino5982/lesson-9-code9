@@ -1,51 +1,91 @@
- @media (max-width:1024px) {
-    .nav-wrap ul{
-    column-gap: 44px;}
+@media (max-width: 1024px) {
+  .nav-wrap ul {
+    column-gap: 44px;
+  }
+  .section-1-wrap {
+    width: 110%;
+    flex-direction: column;
+    padding: 32px;
+  }
+  .left-block {
+    width: 66%;
+    align-items: center;
+    text-align: center;
+  }
+  .right-block {
+    max-width: 960px;
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/img-X1024.png);
+    border-radius: 12px;
+    background-position: right;
+  }
+  .right-block img {
+    display: none;
+  }
 }
- @media (max-width:744px) {
-    .header-wrap {
-       width: 95%;
-       /* justify-content:space-around */
-    }
+@media (max-width: 744px) {
+  .header-wrap {
+    width: 95%;
+    /* justify-content:space-around */
+  }
+  .flex-par {
+    row-gap: 24px;
+  }
+  .nav-wrap ul {
+    column-gap: 15px;
+  }
+  .section-1-wrap {
+    padding:0 24px;
+    row-gap: 24px;
+  }
+  .left-block {
+    width: 100%;
+  }
+  .left-block h1 {
+    font-size: 40px;
+    line-height: 48.5px;
+  }
+  .left-child {
+    flex-direction: column;
+    row-gap: 16px;
+  }
 
-    .nav-wrap ul{
-    column-gap: 15px;}
-   
+  .left-child p {
+    line-height: 28px;
+  }
 }
 /* ar eteoda 5ive elementi da magitom davamate */
-@media (max-width:545px) {
-    .nav-wrap li:last-child{
-        display: none;
-        }
-}
-
- @media (max-width:375px) {
-    .header-wrap {
-        justify-content: space-between;
-        width: 90%;
-    }
-    .nav-wrap{
+@media (max-width: 545px) {
+  .nav-wrap li:last-child {
     display: none;
+  }
 }
-
-.click-button{
+@media (max-width: 375px) {
+  .header-wrap {
+    justify-content: space-between;
+    width: 90%;
+  }
+  .nav-wrap {
     display: none;
-}
-
-.burger-wrap{
-   display: flex;
-           flex-direction: column;
+  }
+  .click-button {
+    display: none;
+  }
+  .burger-wrap {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:3px;
+    gap: 3px;
     width: 25px;
     height: 25px;
     border-radius: 50px;
     background-color: black;
-}
-.line{
+  }
+  .line {
     background-color: white;
     width: 15px;
     height: 1px;
-}
+  }
 }
